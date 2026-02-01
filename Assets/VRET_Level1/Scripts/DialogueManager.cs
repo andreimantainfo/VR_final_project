@@ -163,7 +163,7 @@ public class DialogueManager : MonoBehaviour
     void Step2_Topic()
     {
         conversationStep = 2;
-        NewLine("We've been talking for about 30 seconds. You're doing well. Shall we try for 10 more?", "[1] I can do it.", "[2] I'm overwhelmed.");
+        NewLine("We've been talking for about 20 seconds. You're doing well. Shall we try for 10 more?", "[1] I can do it.", "[2] I'm overwhelmed.");
     }
 
     void NewLine(string speech, string opt1, string opt2)
